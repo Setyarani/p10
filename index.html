@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/
+3.6.0/jquery.min.js"></script> 
+<script> 
+    $(document).ready(function(){ 
+        $("#sembunyi").click(function(){ 
+            $("p").hide(); 
+        }); 
+        $("#tampil").click(function(){ 
+            $("p").show(); 
+        }); 
+    }); 
+</script> 
+</head> 
+<body> 
+ 
+<p>Jika button <b>"Sembunyikan"</b> diklik, maka 
+tulisan ini akan hilang. Sedangkan jika button 
+<b>"Tampilkan"</b> diklik, maka tulisan ini akan 
+muncul lagi.</p> 
+ 
+<button id="sembunyi">Sembunyikan</button> 
+<button id="tampil">Tampilkan</button> 
+ 
+</body> 
+</html> 

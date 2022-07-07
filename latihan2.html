@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/
+3.6.0/jquery.min.js"></script> 
+<script>  
+$(document).ready(function(){ 
+  $("button").click(function(){ 
+    var div = $("div");   
+    div.animate({left: '100px'}, "slow"); 
+    div.animate({fontSize: '3em'}, "slow"); 
+  }); 
+}); 
+</script>  
+</head> 
+<body> 
+ 
+<button>Jalankan Animasi</button> 
+<p>Secara default, elemen-elemen HTML mempunyai posisi 
+yang statik dan tidak bisa berpindah dengan 
+sendirinya. Agar bisa memindahkan elemen-elemen 
+tersebut, kita bisa memanfaatkan properti-properti 
+CSS seperti <i>relative, fixed,</i> dan<i> 
+absolute</i>, dengan bantuan JavaScript.</p> 
+ 
+<div 
+style="background:greenyellow;height:100px;width:3
+00px;position:absolute;padding:19px;">HALO, APA 
+KABAR?</div> 
+ 
+</body> 
+</html>
